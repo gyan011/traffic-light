@@ -1,0 +1,104 @@
+.first{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 20%;
+    margin: 0 auto;
+    box-shadow: 2px 2px 10px black ;
+
+}
+
+.second{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px black;
+}
+
+#red{
+    background-color: red;
+    animation-name: change-color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes change-color{
+    20%{
+        background-color: red;
+    }
+    50%{
+        background-color: yellow;
+    }
+    90%{
+        background-color: green;
+    }
+}
+
+@keyframes change-color-y{
+    20%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: green;
+    }
+    90%{
+        background-color: red;
+    }
+}
+@keyframes change-color-g{
+    20%{
+        background-color: green;
+    }
+    50%{
+        background-color: red;
+    }
+    90%{
+        background-color: yellow;
+    }
+}    
+#yellow{
+    background-color: yellow;
+    animation-name: change-color-y;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#green{
+    background-color: green;
+    animation-name: change-color-g;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+/*#yellow:hover {
+    background-color: white; 
+}
+#red:hover {
+    background-color: white; 
+}
+#green:hover {
+    background-color: white; 
+}*/
+#pole {
+    height: 450px;
+    width: 10px;
+    background-color: black;
+    border: 2px solid black;
+    margin: 0  auto;
+    position: absolute;
+    margin-left: 48.8%;
+
+}
+#line1 {
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: orange;
+    margin: auto;
+    margin-top: 400px;
+
+
+}
+
+
